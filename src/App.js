@@ -1,8 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import PropsExample from './PropsExample';
 
 function App() {
-  return <div className="App">asdf</div>;
+  return (
+    <div className="App">
+      <PropsExample />
+    </div>
+  );
 }
 
 export default App;
