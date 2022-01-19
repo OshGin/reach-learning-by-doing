@@ -1,9 +1,11 @@
 import './App.css';
 import Counter from './Counter';
 import Form from './Form';
+import PropsDestruct from './PropsDestruct';
 import PropsExample from './PropsExample';
+import StateNotSync from './StateNotSync';
 
-/// Props and State Example;
+/// Helping tools to do stuff;
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <div>-------------------</div>
       <Form />
       <div>-------------------</div>
+      <StateNotSync />
+      <div>-------------------</div>
+      <PropsDestruct name="Change Name" color="red" />
     </div>
   );
 }
