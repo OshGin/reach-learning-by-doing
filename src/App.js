@@ -21,8 +21,6 @@ function App() {
       <StateNotSync />
       <div>-------------------</div>
       <PropsDestruct name="Change Name" color="red" phone={phone} />
-      {/*sending out info
-      keys are what i want*/}
       <div>-------------------</div>
       <MapingArrey name="Change Name" color="red" phone={phone} />
     </div>
