@@ -24,7 +24,6 @@ function App() {
       {/* sending out info
       keys are what i want*/}
       <div>-------------------</div>
-      <MapingArrey name="Change Name" color="red" phone={phone} />
     </div>
   );
 }
